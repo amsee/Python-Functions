@@ -1,0 +1,11 @@
+# Functions
+# Parameter - is a piece of information that we give to the function (give us a parameter!)
+# You can have as many parameters
+# Pass in different datatypes
+
+def good_morning(name, feeling, age):
+    print("Ohayo " + name + "! " + "You are " + feeling + " today " + "and " + str(age) + " this year.")
+
+
+# Call the function
+good_morning("tomodachi", "tsukareteimasu", 30)
